@@ -3,6 +3,6 @@ A social network app written in php.
   
     
 ###Screenshot
-[![screenshot]()](#feature)
+[![screenshot](/img/screenshot_1.png)](#feature)
 
 
