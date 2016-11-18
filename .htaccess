@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /social/
+RewriteRule ^([a-zA-Z0-9_-]+)$ profile.php?u=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ profile.php?u=$1
+RewriteRule ^albums/([a-zA-Z0-9_-]+)$ view_albums.php?u=$1
+RewriteRule ^albums/viewphoto/([a-zA-Z0-9_-]+)$ view_photo.php?uid=$1

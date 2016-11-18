@@ -1,0 +1,335 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Helvetica,Arial, Sans-serif;
+}
+html,body{
+	min-height:100%;
+
+}
+
+body{
+	background: url("../img/old_moon.png");
+
+	margin-bottom:100px;
+	
+}
+
+.container{
+	width:992px;
+}
+
+/*  index
+******************************8
+*/
+
+
+.login_signup_page .input-control{
+	display: block;
+	-webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+	border-bottom:1px solid #BDBFBF;
+	border-top:0;
+	border-left: 0;
+	border-right: 0;
+	background-color: transparent;
+	width: 100%;
+	height: 40px;
+	color:#555;
+	background-image: none;
+	line-height: 1.428;
+	font-size:14px;
+
+}
+
+.login_signup_page .input-control:focus{
+	outline:0;
+	background-color: #D7DCB9;
+	border-bottom:1px solid #333;
+}
+
+
+#signup-btn{
+	background-color: #4287D2;
+	color:white;
+}
+
+#signup-btn:hover{
+	background-color: #3A72AF;
+}
+
+.login_signup_page .sub-title{
+	color:#0A9087;
+}
+.login_signup_page .main-title{
+	text-align: center;
+}
+button.btn{
+	border-radius:0;
+	padding:10px 35px;
+}
+
+#login_form{
+	width: 375px;
+	padding:15px 25px;
+	margin: 20% auto 0 auto;
+	border:1px solid #D0C8C8;
+	background-color: white;
+	-webkit-box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+-moz-box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+}
+
+/*   profile
+***************************************
+*/
+
+.profile-pic img{
+	display: block;
+	width: 100%;
+	height: 218px;
+}
+
+.profile .wrap{
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+
+}
+
+.profile textarea{
+	display: block;
+	resize:none;
+	width: 100%;
+	height: 60px;
+	padding: 6px;
+}
+
+.profile #post-btn{
+	width: 100%;
+	height:60px;
+
+}
+#addfriend, #sendmsg, #removefriend, #viewalbums{
+	width:100%;
+}
+
+.profile-title{
+	padding:15px;
+	background-color: #84A28B;
+	color:white;
+}
+
+.profile-bio{
+	background-color: white;
+	padding: 15px;
+}
+.profile .btn-list li{
+	margin-bottom:10px;
+	
+}
+
+.profile .posted-wrap{
+	padding:6px;
+	background-color: white;
+	margin-bottom:15px;
+	border:1px solid #DEDEDE;
+
+}
+
+.profile .posted-body{
+	margin-bottom: 5px;
+}
+
+.profile-header{
+	padding-bottom:10px;
+	background-color: white;
+	margin-bottom:25px;
+	border:1px solid #D0C8C8;
+}
+
+.profile .post-head .post-pic{
+	width:45px;
+	height:45px;
+	display:block;
+	float: left;
+}
+
+.profile .post-head .post-title{
+	float: left;
+	margin-left:15px;
+}
+
+.profile .posted-wrap hr{
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+.profile input.form-control{
+	border-radius:0;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+	box-shadow:none;
+	padding-left:1px;
+}
+
+.show-block{
+	display: :block;
+}
+
+.hide-block{
+	display:none;
+}
+
+.profile-friend-list ul{
+	background-color:#fff;
+	padding:5px 15px;
+}
+
+.profile-friend-list ul li{
+	margin: 5px 0;
+}
+
+p{
+	white-space:normal;
+	word-break:break-all;
+}
+
+.message-box .read-msg, .message-box .read-msg a{
+	color:grey;
+}
+
+.message-box hr{
+	border-top:1px solid #bbb;
+	margin:10px 0;
+}
+
+.message-box .msg-content{
+	display:none;
+	margin-bottom:10px;
+}
+
+.message-box i.fa-times, .message-box i.fa-reply{
+	float: right;
+	margin-top:8px;
+	margin-left:20px;
+	cursor:pointer;
+}
+
+
+.signup-page .title{
+	text-align: center;
+}
+
+.signup-page .sub-title{
+	background-color: #F1ECEC;
+	padding: 15px 20px ;
+	color:#BFBDBD;
+}
+
+.signup-page .table-wrap{
+	background-color: white;
+	padding:15px 8px;
+}
+
+#registration_form{
+	width:70%;
+	margin:0 auto;
+	border:1px solid #D0C8C8;
+	background-color: white;
+	-webkit-box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+-moz-box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+box-shadow: 0px 1px 5px 1px rgba(204,204,204,1);
+}
+
+.signup-page .input-control{
+	display: block;
+	-webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+	border-bottom:1px solid #BDBFBF;
+	border-top:1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	background-color: transparent;
+	height: 40px;
+	color:#555;
+	background-image: none;
+	line-height: 1.428;
+	font-size:14px;
+
+}
+
+.signup-page .input-control:focus{
+	outline:0;
+	background-color: #D7DCB9;
+	border-bottom:1px solid #333;
+}
+
+.signup-page textarea{
+	padding-top:8px;
+}
+
+.signup-page label{
+	margin-top:8px;
+}
+
+.signup-page input.error, .signup-page textarea.error{
+	border:1px solid red;
+	background:url("../img/cross.png");
+	background-size:10px 10px;
+	background-position:98% center;
+	background-repeat:no-repeat;
+}
+
+.albums .one-album{
+	float: left;
+	width:200px;
+	height:250px;
+	border:1px solid #C7C5C5;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+.albums .one-album:hover{
+	background-color: #E4E4E4;
+}
+
+.albums .one-album.add-album{
+	border:1px dashed gray;
+}
+.albums .one-album.add-album div {
+	text-align: center;
+	margin-top: 45%;
+	color:gray;
+	font-size:24px;
+}
+
+.albums .one-album img{
+	width: 100%;
+	height:200px;
+}
+.albums .one-album .album-title{
+	padding:10px 8px;
+}
+
+
+.show-photo-page .one-photo {
+	float: left;
+	width: 240px;
+	margin: 0 10px 10px 0;
+	padding:10px;
+	background-color: white;
+	border:1px solid #CAC9C9;
+}
+
+.show-photo-page .one-photo img{
+	display: block;
+	width: 100%;
+	height: 230px;
+}
